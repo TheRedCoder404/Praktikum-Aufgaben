@@ -1,0 +1,23 @@
+body {
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+  color: rgb(33, 33, 33);
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #0b3d91;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* CSS kennt drei gängige Schreibweisen für Farben:
+   - Farbname — z.B. lavender, lightblue, tomato (insgesamt ca. 140 benannte Farben)
+   - Hex-Code — z.B. #f5f5f5 (zwei Ziffern pro Rot/Grün/Blau-Anteil)
+   - rgb()    — z.B. rgb(245, 245, 245) */
