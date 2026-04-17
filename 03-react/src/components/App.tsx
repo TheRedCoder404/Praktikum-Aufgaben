@@ -1,5 +1,5 @@
 import { Box, Typography } from '@mui/material';
-import { styles } from './App.styles.js';
+import { styles } from './App.styles';
 
 function App() {
   return (

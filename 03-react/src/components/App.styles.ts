@@ -1,4 +1,6 @@
-export const styles = {
+import type { SxProps, Theme } from '@mui/material';
+
+export const styles: Record<string, SxProps<Theme>> = {
   page: {
     minHeight: '100vh',
     backgroundColor: '#2d2d2d',
