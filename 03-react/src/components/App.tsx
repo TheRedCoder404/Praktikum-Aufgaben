@@ -1,4 +1,4 @@
-import { Box, Typography } from '@mui/material';
+import { Box, Button, Typography } from '@mui/material';
 import { styles } from './App.styles';
 
 function App() {
@@ -13,7 +13,13 @@ function App() {
         Willkommen!
       </Typography>
 
-      {/* TODO: MUI Button integrieren — siehe https://mui.com/material-ui/react-button/ */}
+      <Button
+        variant="contained"
+        color="primary"
+        onClick={() => alert('Hallo aus React!')}
+      >
+        Klick mich
+      </Button>
 
     </Box>
   );
